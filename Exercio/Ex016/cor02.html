@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+</head>
+<body>
+    <h1>Testando Gradiente</h1>
+    <style>
+        *{ /* Configurações globais das CSS (to top para cima - to left = para esquerda - to right = para direita - to buttom = para baixo*/
+            height: 100%;
+        }
+        body{
+          background-image: linear-gradient(to left,#BF2E7A,#813AB3,#F6C310,#F94C00,#F4010A);
+          background-attachment: fixed;
+        }
+    </style>
+    <!--body{
+          background-image: linear-gradient(to bottom,#BF2E7A,#813AB3,#F6C310,#F94C00,#F4010A);
+          background-attachment: fixed; 
+
+          background-image: radial-gradient(circle,#BF2E7A,#813AB3,#F6C310,#F94C00,#F4010A);
+          background-attachment: fixed;
+          
+          background-image: linear-gradient(45deg,#BF2E7A,#813AB3,#F6C310,#F94C00,#F4010A 10%);
+          background-attachment: fixed;
+        }-->
+</body>
+</html>
